@@ -1,23 +1,23 @@
 {
-  "name": "req",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "wewe",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "nodemon server.js"
   },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "axios": "^1.8.3",
     "bootstrap": "^5.3.3",
-    "js-cookie": "^3.0.5",
-    "socket.io-client": "^4.8.1",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.2.0"
+    "cookie": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
   }
 }
